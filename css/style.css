@@ -110,6 +110,17 @@ body {
     text-transform: uppercase;
 }
 
+#main-nav > ul > .open > a:after,
+#main-nav > ul > .open > ul > .open > a:after {
+    content: "↓";
+    float: right;
+    margin-left: 6px;
+}
+
+#main-nav > ul > .open > ul > .open > a:after {
+    content: "→";
+}
+
 #main-nav li:hover {
     background-color: #A70000;
 }
