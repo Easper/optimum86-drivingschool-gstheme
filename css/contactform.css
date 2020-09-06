@@ -1,0 +1,65 @@
+#main-content .content .contact-form {
+    max-width: 696px;
+    margin: 0 auto 60px;
+    border: 1px solid #B4B4B4;
+    text-align: center;
+    padding: 28px;
+}
+
+#main-content .content .contact-form #p01-contact1 {
+    margin: 0;
+    font-family: inherit;
+    display: block;
+    max-width: 100%;
+}
+
+#main-content .content .contact-form #p01-contact1 .field {
+    margin: 0 176px 28px 0;
+    text-align: right;
+}
+
+#main-content .content .contact-form #p01-contact1 .email,
+#main-content .content .contact-form #p01-contact1 .subject {
+	display: none;
+}
+
+#main-content .content .contact-form #p01-contact1 .field label {
+    color: #9C9C9C;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 17px;
+    display: inline-block;
+}
+
+#main-content .content .contact-form #p01-contact1 .field input:not([type='submit']) {
+    width: 306px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    border: 1px solid #B4B4B4;
+}
+
+#main-content .content .contact-form #p01-contact1 .submit {
+    width: 180px;
+    background: linear-gradient( #C20000, #FF7070);
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+#main-content .content .contact-form #p01-contact1 .submit:hover {
+	background: #A70000;
+	transition: none;
+}
+
+#main-content .content .contact-form #p01-contact1 .alert.success {
+	margin-bottom: 0px;
+}

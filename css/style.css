@@ -1,0 +1,408 @@
+body {
+    background: url(../img/background-body.svg) fixed;
+    font-family: Segoe UI;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.btn {
+    width: 180px;
+    background: linear-gradient( #C20000, #FF7070);
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #A70000;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    width: 925px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+/*========HEADER========*/
+
+#main-header {
+    position: relative;
+    height: 211px;
+    background: url(../img/top-left-corner-header.svg) top left no-repeat, url(../img/bottom-right-coner-header.svg) bottom right no-repeat, url(../img/background-header-cars.png) top 15px right 29px no-repeat, url(../img/background-header.svg), #F6F6F6;
+}
+
+#main-header .main-logo {
+    position: absolute;
+    top: 40px;
+    left: 37px;
+}
+
+#main-header .cont-inf {
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(#C20000, #FF7070);
+    border-radius: 0px 0px 25px 25px;
+    top: 0;
+    right: 38px;
+    padding: 10px 20px;
+}
+
+#main-header .cont-inf a {
+    color: #F8F8F8;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+#main-header .banner {
+    position: absolute;
+    top: 184px;
+    right: 231px;
+}
+
+#main-header .mobile-menu-button {
+    display: none;
+}
+
+/*========END HEADER========*/
+
+/*========NAVIGATION========*/
+
+#main-nav {
+    background: linear-gradient( #c60707, #FF7070);
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 5;
+}
+
+#main-nav ul li {
+    transition: 0.1s;
+}
+
+#main-nav > ul > li {
+    float: left;
+}
+
+#main-nav > ul > li a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 12px;
+    white-space: nowrap;
+}
+
+#main-nav > ul > li > a {
+    text-transform: uppercase;
+}
+
+#main-nav li:hover {
+    background-color: #A70000;
+}
+
+#main-nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    border-top: 1px solid #fff;
+    background-color: #FD6D6D;
+}
+
+#main-nav > ul > li > ul > li {
+    position: relative;
+}
+
+#main-nav > ul > li > ul > li > ul {
+    background-color: #FD6D6D;
+    display: none;
+    position: absolute;
+    margin-left: 1px;
+    left: 100%;
+    top: 0;
+}
+
+/* #main-nav > ul > li:hover > ul {
+    display: block;
+}
+
+#main-nav > ul > li > ul > li:hover > ul {
+    display: block;
+} */
+
+/*========END NAVIGATION========*/
+
+/*========MAIN CONTENT========*/
+
+#main-content {
+    background: url(../img/car-signs.png) top 26px left 75px no-repeat, url(../img/background-content-cars.png) top right 29px no-repeat, url(../img/background-diagonal-line-content.svg) top 136px center no-repeat;
+}
+
+#main-content .content {
+    padding: 26px 68px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #505050;
+}
+
+#index #main-content .content .page-title-header {
+    display: none;
+}
+
+#main-content .content .page-title-header {
+    color: #B10505;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 28px;
+    margin-left: 166px;
+    margin-bottom: 42px;
+    text-align: center;
+	line-height: normal;
+	text-decoration: underline;
+}
+
+#main-content .content .homepage-header {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 0 196px;
+    border: 1px solid #B4B4B4;
+    padding: 16px 25px;
+    color: #070707;
+    transform: none;
+    text-transform: none;
+    background: none;
+    text-align: left;
+}
+
+#main-content .content h2 {
+    background: #E6E6E6;
+    text-align: center;
+    color: #B10505;
+    text-transform: uppercase;
+    padding: 20px 100px;
+    transform: skew(45deg, 0);
+    margin: 40px 0 30px;
+    font-size: 18px;
+}
+
+#main-content .content h2 span {
+    transform: skew(-45deg, 0);
+    display: inline-block;
+    position: relative;
+}
+
+#main-content .content h2 span:before,
+#main-content .content h2 span:after {
+    content: url(../img/sign-keys.png); 
+    top: 50%;
+    margin-top: -46px;
+    position: absolute;
+}
+
+#main-content .content h2 span:before {
+    left: -120px;
+}
+
+#main-content .content h2 span:after {
+    right: -120px;
+}
+
+#main-content .content .arrow-down {
+    display: block;
+    margin: 13px auto;
+}
+
+#main-content .content .big-brace {
+    display: block;
+    margin: 0 auto 24px;
+}
+
+#main-content .content .category-box-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#main-content .content .category-box-container:after {
+    content: "";
+    width: 227px;
+    display: block;
+}
+
+#main-content .content .category-box-container li {
+    width: 225px;
+    height: 311px;
+    position: relative;
+    border: 1px solid #B4B4B4;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+}
+
+#main-content .content .category-box-container .category-tittle {
+    height: 60px;
+    line-height: 56px;
+    background: #F6F6F6;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #C00000;
+    border-radius: 5px 5px 0 0;
+}
+
+#main-content .content .category-box-container p {
+    margin: 0 12px;
+}
+
+#main-content .content .category-box-container > li > img {
+    display: block;
+    position: absolute;
+    bottom: 72px;
+    left: 50%;
+    margin-left: -88px;
+}
+
+#main-content .content .category-box-container .btn {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    margin-left: -90px;
+}
+
+#main-content .content .retraining li {
+    height: auto;
+}
+
+#main-content .content .retraining img {
+    margin-bottom: 4px;
+}
+
+#main-content .content .retraining .category-tittle {
+    margin-bottom: 16px;
+}
+
+#main-content .content .retraining .btn {
+    position: static;
+    margin: 18px;
+}
+
+#main-content .content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+#main-content .content table th,
+#main-content .content table td {
+    padding: 10px;
+    border: 1px solid rgba(112, 112, 112, 1);
+}
+
+#main-content .content table th {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    background: #F5F5F5;
+}
+
+#main-content .content table tr td:last-child {
+    text-align: center;
+}
+
+#main-content .content .vertical-heading-table th {
+    text-align: left;
+    white-space: nowrap;
+}
+
+#main-content .content .vertical-heading-table td:last-child {
+    text-align: left;
+}
+
+#main-content .content .column-list {
+    list-style: none;
+    column-count: 3;
+}
+
+#main-content .content a:not(.btn) {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+}
+
+#main-content .content a:not(.btn):hover {
+    text-decoration: underline;
+}
+
+/*========END MAIN CONTENT========*/
+
+/*========MAIN FOOTER========*/
+
+#main-footer {
+    height: 227px;
+    border-top: 1px solid #FD6D6D;
+    position: relative;
+    background: url(../img/footer-corner-left.svg) top left no-repeat, url(../img/footer-corner-right.svg) bottom 32px right no-repeat, url(../img/logo-footer.svg) top 33px right 30px no-repeat;
+}
+
+#main-footer .footer-contacts {
+    margin-top: 52px;
+    margin-left: 130px;
+    color: #858585;
+}
+
+#main-footer .footer-contacts address {
+    display: inline-block;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+#main-footer .footer-contacts address:last-child {
+    padding-left: 55px;
+    border-left: 1px solid #D9D9D9;
+    margin-left: 55px;
+}
+
+#main-footer .footer-contacts address p {
+    margin: 0;
+}
+
+#main-footer .footer-contacts address p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#main-footer .footer-bottom-line {
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#c91e1e, #FF7070);
+    padding: 6px 17px;
+    box-sizing: border-box;
+}
+
+#main-footer .footer-bottom-line p {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0;
+    line-height: 22px;
+}
+
+/*========END MAIN FOOTER========*/

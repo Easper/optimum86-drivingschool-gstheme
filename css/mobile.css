@@ -1,0 +1,203 @@
+@media screen and (max-width: 600px) {
+    .wrapper {
+        position: relative;
+        width: 100%;
+        min-width: 320px;
+        overflow: hidden;
+    }
+
+    #main-header .cont-inf {
+        position: static;
+        border-radius: 0;
+        padding-right: 55px;
+        height: 36px;
+    }
+
+    #main-header .cont-inf a {
+        font-size: 14px;
+    }
+
+    #main-header .mobile-menu-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        padding: 0 12px;
+        font-size: 30px;
+        display: block;
+        line-height: 56px;
+    }
+
+    #main-content .content .big-brace {
+        max-width: 100%;
+    }
+
+    #main-content .content {
+        padding: 20px 10px;
+    }
+
+    #index #main-content .content {
+        padding: 124px 10px 20px;
+    }
+
+    #main-content .content .category-box-container {
+        justify-content: space-around;
+    }
+
+    #main-content {
+        background: none;
+    }
+
+    #index #main-content {
+        background: url(../img/car-signs.png) top 26px center no-repeat;
+    }
+
+    #main-content .content .homepage-header {
+        margin: auto;
+    }
+
+    #main-header .main-logo {
+        position: static;
+        max-width: 190px;
+        display: block;
+        margin: 8px;
+    }
+
+    #main-header .banner {
+        position: static;
+        display: block;
+        max-width: 125px;
+        margin: 8px;
+    }
+
+    #index #main-header .main-logo {
+        margin: 30px auto 0;
+        max-width: 300px;
+    }
+
+    #index #main-header .banner {
+        max-width: 100%;
+        margin: 15px auto 0;
+    }
+
+    #main-header {
+        height: auto;
+        background: url(../img/background-header.svg), #F6F6F6;
+        padding-bottom: 2px;
+    }
+
+    #index #main-header {
+        padding-bottom: 30px;
+    }
+
+    #main-content .content h2 span:before,
+    #main-content .content h2 span:after {
+        display: none;
+    }
+
+    #main-content .content h2 {
+        padding: 10px;
+        font-size: 14px;
+        margin: 25px 0 15px;
+    }
+
+    #main-content .content h2,
+    #main-content .content h2 span {
+        transform: none;
+    }
+
+    #main-content .content .page-title-header {
+        margin: 0 5px 15px;
+    }
+
+    #main-content .content .contact-form {
+        padding: 10px;
+    }
+
+    #main-content .content .contact-form #p01-contact1 .field {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #main-content .content .contact-form #p01-contact1 .field label {
+        display: block;
+    }
+
+    #main-content .content .contact-form #p01-contact1 .field input:not([type='submit']) {
+        max-width: 90%;
+    }
+
+    #main-footer {
+        height: auto;
+        padding-bottom: 64px;
+        background: url(../img/footer-corner-left.svg) top left no-repeat, url(../img/footer-corner-right.svg) bottom 32px right no-repeat;
+    }
+
+    #main-footer .footer-contacts {
+        margin: 46px auto 0;
+        width: 200px;
+    }
+
+    #main-footer .footer-contacts address:last-child {
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 22px;
+        padding-top: 22px;
+        border-left: none;
+        border-top: 1px solid #D9D9D9;
+    }
+
+    #main-content .content .table-container {
+        overflow-x: auto;
+    }
+
+    /* mobile menu */
+
+    .menu-opened {
+        left: 0 !important;
+    }
+
+    #main-nav {
+        width: 100%;
+        position: absolute;
+        top: 56px;
+        left: 100%;
+        transition: 0.2s;
+        z-index: 7;
+    }
+
+    #main-nav ul li {
+        float: none;
+    }
+
+    #main-nav ul li a {
+        border-bottom: 1px solid #fff;
+    }
+
+    #main-nav li:hover {
+        background: none;
+    }
+
+    #main-nav > ul > li > a {
+        text-align: center;
+    }
+
+    #main-nav > ul > li a {
+        white-space: normal;
+    }
+
+    #main-nav > ul > li > ul {
+        box-shadow: inset 0 0 6px 2px #b62f2f;
+    }
+
+    #main-nav > ul > li > ul,
+    #main-nav > ul > li > ul > li > ul {
+        position: static;
+        border-top: none;
+    }
+
+    #main-nav > ul > li > ul > li > ul {
+        margin-left: 15px;
+        background: none;
+    }
+}
