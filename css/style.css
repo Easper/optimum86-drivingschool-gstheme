@@ -79,7 +79,7 @@ body {
 /*========NAVIGATION========*/
 
 #main-nav {
-    background: linear-gradient( #c60707, #FF7070);
+    background: linear-gradient(#c60707, #FF7070);
 }
 
 #main-nav ul {
@@ -90,20 +90,24 @@ body {
 }
 
 #main-nav ul li {
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 #main-nav > ul > li {
     float: left;
 }
 
-#main-nav > ul > li a {
+#main-nav a {
     display: block;
     font-size: 14px;
     text-decoration: none;
     color: #FFFFFF;
     padding: 12px;
     white-space: nowrap;
+}
+
+#main-nav ul ul a {
+    padding: 8px;
 }
 
 #main-nav > ul > li > a {
@@ -116,7 +120,7 @@ body {
     margin-left: 6px;
 }
 
-#main-nav > ul > .open > ul > .open > a:after {
+#main-nav .open .open > a:after {
     content: "→";
     float: right;
 }
@@ -125,27 +129,27 @@ body {
     background-color: #A70000;
 }
 
-#main-nav > ul > li > ul {
+#main-nav .open > ul {
     display: none;
     position: absolute;
-    border-top: 1px solid #fff;
     background-color: #FD6D6D;
 }
 
-#main-nav > ul > li > ul > li {
+#main-nav > ul > .open > ul {
+    border-top: 1px solid #fff;
+}
+
+#main-nav .open .open {
     position: relative;
 }
 
-#main-nav > ul > li > ul > li > ul {
-    background-color: #FD6D6D;
-    display: none;
-    position: absolute;
+#main-nav .open .open > ul {
     margin-left: 1px;
     left: 100%;
     top: 0;
 }
 
-#main-nav ul .open:hover > ul {
+#main-nav .open:hover > ul {
     display: block;
 }
 
