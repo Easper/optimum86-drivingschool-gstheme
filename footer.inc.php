@@ -29,6 +29,11 @@
     $("#main-nav ul .open > a").click(function(event) {
         event.preventDefault();
     });
+    $("#main-nav .open").hover(function(){
+        $(this).children("ul").slideDown("fast");
+    }, function(){
+        $(this).children("ul").slideUp("fast");
+    });
 </script>
 <!-- add horiz table scroll for mobile devices -->
 <script>$("#main-content .content table").wrap("<div class='table-container'></div>");</script>
