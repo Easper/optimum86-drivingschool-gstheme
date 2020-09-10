@@ -30,6 +30,6 @@
         </header>
         <nav id="main-nav">
             <ul class="clearfix">
-                <?php get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_MENU); ?>
+                <?php get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_MENU, 'main-menu-rendering'); ?>
             </ul>
         </nav>
