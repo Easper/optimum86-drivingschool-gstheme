@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/mobile.css">
     <script src="<?php get_theme_url(); ?>/js/jquery-3.5.1.min.js"></script>
+    <script src="<?php get_theme_url(); ?>/js/jquery.menu-aim.js"></script>
     <script src="<?php get_theme_url(); ?>/js/jquery.maskedinput.min.js"></script>
     <script src="<?php get_theme_url(); ?>/js/jquery.fancybox.min.js"></script>
     <?php get_header(); ?>
