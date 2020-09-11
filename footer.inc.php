@@ -29,10 +29,10 @@
     $("#main-nav ul .open > a").click(function(event) {
         event.preventDefault();
     });
-    $("#main-nav > ul >.open").hover(function(){
-        $(this).children("ul").slideDown("fast");
+    $("#main-nav > ul > .open").hover(function(){
+        $(this).children("ul").css('display', 'block');
     }, function(){
-        $(this).children("ul").slideUp("fast");
+        $(this).children("ul").css('display', 'none');
     });
     // for dropdown menus that can differentiate between a user trying hover over a dropdown item vs trying to navigate into a submenu's contents
     $("#main-nav > ul > .open > ul").menuAim({
@@ -40,15 +40,10 @@
         deactivate: deactivateSubmenu
     });
     function activateSubmenu(row) {
-        $(row).children('ul').slideDown("fast");
+        $(row).children('ul').css('display', 'block');
     };
     function deactivateSubmenu(row) {
-        $(row).children('ul').slideUp("fast");
-    };
-    if ($(window).width() > 600) {
-        $("#main-nav > ul > .open > a").hover(function(){
-            $("#main-nav .open .open ul").css('display', 'none');
-        });
+        $(row).children('ul').css('display', 'none');
     };
 </script>
 <!-- add horiz table scroll for mobile devices -->
