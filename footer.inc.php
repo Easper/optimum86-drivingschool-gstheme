@@ -32,7 +32,7 @@
     $("#main-nav > ul > .open").hover(function(){
         $(this).children("ul").css('display', 'block');
     }, function(){
-        $(this).children("ul").css('display', 'none');
+        $(this).find("ul").css('display', 'none');
     });
     // for dropdown menus that can differentiate between a user trying hover over a dropdown item vs trying to navigate into a submenu's contents
     $("#main-nav > ul > .open > ul").menuAim({
