@@ -80,6 +80,7 @@ body {
 
 #main-nav {
     background: linear-gradient(#c60707, #FF7070);
+    color: #fff;
 }
 
 #main-nav ul {
@@ -89,7 +90,7 @@ body {
     z-index: 5;
 }
 
-#main-nav ul li {
+#main-nav li {
     transition: 0.2s;
 }
 
@@ -114,15 +115,25 @@ body {
     text-transform: uppercase;
 }
 
-#main-nav > ul > .open > a:after {
-    content: "↓";
-    display: inline-block;
-    margin-left: 6px;
+#main-nav .open {
+    position: relative;
+    padding-right: 16px;
 }
 
-#main-nav .open .open > a:after {
-    content: "→";
-    float: right;
+#main-nav > ul > .open:after {
+    content: ">";
+    margin-left: 8px;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 8px;
+    top: 11px;
+}
+
+#main-nav .open .open:after {
+    content: ">";
+    position: absolute;
+    right: 4px;
+    top: 6px;
 }
 
 #main-nav li:hover {
@@ -139,11 +150,7 @@ body {
     border-top: 1px solid #fff;
 }
 
-#main-nav .open .open {
-    position: relative;
-}
-
-#main-nav .open .open > ul {
+#main-nav .open .open ul {
     border-left: 1px solid #fff;
     left: 100%;
     top: 0;
