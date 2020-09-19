@@ -142,18 +142,9 @@ body {
 
 #main-nav .open > ul {
     display: none;
+    border: 1px solid #e64242;
     position: absolute;
     background-color: #FD6D6D;
-}
-
-#main-nav > ul > .open > ul {
-    border-top: 1px solid #fff;
-}
-
-#main-nav .open .open ul {
-    border-left: 1px solid #fff;
-    left: 100%;
-    top: 0;
 }
 
 /*#main-nav .open:hover > ul {

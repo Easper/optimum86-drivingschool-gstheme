@@ -183,10 +183,6 @@
         white-space: normal;
     }
 
-    #main-nav > ul > .open > ul {
-        border-top: none;
-    }
-
     #main-nav .open {
         padding-right: 0;
     }
@@ -195,18 +191,12 @@
         transform: rotate(90deg);
     }
 
-    #main-nav .open > ul,
-    #main-nav .open .open > ul {
+    #main-nav .open > ul {
         position: static;
-        border-top: none;
-    }
-
-    #main-nav .open .open ul {
-        border-left: none;
+        border: none;
     }
 
     #main-nav .open .open > ul {
         margin-left: 15px;
-        background: none;
     }
 }
