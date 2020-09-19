@@ -160,6 +160,7 @@
     #main-nav {
         width: 100%;
         position: absolute;
+        background: #da2c2c;
         top: 56px;
         left: 100%;
         transition: 0.2s;
@@ -170,10 +171,6 @@
         float: none;
     }
 
-    #main-nav ul li a {
-        border-top: 1px solid #fff;
-    }
-
     #main-nav li:hover {
         background: none;
     }
@@ -182,22 +179,30 @@
         text-align: center;
     }
 
-    #main-nav .open .open > a:after {
-        content: "↓";
-    }
-
     #main-nav > ul > li a {
         white-space: normal;
     }
 
     #main-nav > ul > .open > ul {
-        box-shadow: inset 0 0 6px 2px #b62f2f;
+        border-top: none;
+    }
+
+    #main-nav .open {
+        padding-right: 0;
+    }
+
+    #main-nav .open .open:after {
+        transform: rotate(90deg);
     }
 
     #main-nav .open > ul,
     #main-nav .open .open > ul {
         position: static;
         border-top: none;
+    }
+
+    #main-nav .open .open ul {
+        border-left: none;
     }
 
     #main-nav .open .open > ul {

@@ -15,6 +15,10 @@
     </div>
 </footer>
 </div>
+<script src="<?php get_theme_url(); ?>/js/jquery-3.5.1.min.js"></script>
+<script src="<?php get_theme_url(); ?>/js/jquery.smartmenus.min.js"></script>
+<script src="<?php get_theme_url(); ?>/js/jquery.maskedinput.min.js"></script>
+<script src="<?php get_theme_url(); ?>/js/jquery.fancybox.min.js"></script>
 <!-- input mask -->
 <script>
     $(document).ready(function() {
@@ -23,28 +27,14 @@
 </script>
 <!-- dropdown menu -->
 <script>
+    $(function() {
+        $('#main-menu').smartmenus({
+            collapsibleBehavior: 'toggle'
+        });
+    });
     $(".mobile-menu-button").click(function(){
         $("#main-nav").toggleClass("menu-opened");
     });
-    $("#main-nav ul .open > a").click(function(event) {
-        event.preventDefault();
-    });
-    $("#main-nav > ul > .open").hover(function(){
-        $(this).children("ul").css('display', 'block');
-    }, function(){
-        $(this).find("ul").css('display', 'none');
-    });
-    // for dropdown menus that can differentiate between a user trying hover over a dropdown item vs trying to navigate into a submenu's contents
-    $("#main-nav > ul > .open > ul").menuAim({
-        activate: activateSubmenu,
-        deactivate: deactivateSubmenu
-    });
-    function activateSubmenu(row) {
-        $(row).children('ul').css('display', 'block');
-    };
-    function deactivateSubmenu(row) {
-        $(row).children('ul').css('display', 'none');
-    };
 </script>
 <!-- add horiz table scroll for mobile devices -->
 <script>$("#main-content .content table").wrap("<div class='table-container'></div>");</script>
