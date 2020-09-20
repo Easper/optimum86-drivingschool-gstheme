@@ -36,6 +36,8 @@
         $("#main-nav").toggleClass("menu-opened");
     });
 </script>
+<!-- wrapper for styling the second-level header in the content area -->
+<script>$("#main-content .content h2:not(.homepage-header)").wrapInner('<span />');</script>
 <!-- add horiz table scroll for mobile devices -->
 <script>$("#main-content .content table").wrap("<div class='table-container'></div>");</script>
 <!-- preloader -->
