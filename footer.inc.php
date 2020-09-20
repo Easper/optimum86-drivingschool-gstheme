@@ -11,7 +11,7 @@
         </address>
     </div>
     <div class="footer-bottom-line">
-        <p>АНО ДПО "ОПТИМУМ 86" 2020</p>
+        <p>АНО ДПО "ОПТИМУМ 86" 2006-<?php echo date("Y"); ?></p>
     </div>
 </footer>
 </div>
