@@ -74,12 +74,3 @@
     width: 15px;
   }
 }
-
-.loaded_hiding .preloader {
-  transition: 0.3s opacity;
-  opacity: 0;
-}
-
-.loaded .preloader {
-  display: none;
-}

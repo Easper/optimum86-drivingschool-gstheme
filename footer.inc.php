@@ -40,13 +40,11 @@
 <script>$("#main-content .content table").wrap("<div class='table-container'></div>");</script>
 <!-- preloader -->
 <script>
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  }
+    $(window).on('load', function () {
+        window.setTimeout(function () {
+            $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+        }, 1000);
+    });
 </script>
 
 <?php get_footer(); ?>
