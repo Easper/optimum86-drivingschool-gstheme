@@ -147,6 +147,39 @@ body {
     display: block;
 }*/
 
+/* button to scroll the submenu if it doesn't fit on the screen */
+@media screen and (min-width: 601px) {
+    #main-nav .scroll-up,
+    #main-nav .scroll-down {
+        position: absolute;
+        display: none;
+        visibility: hidden;
+        overflow: hidden;
+        background: #fff;
+        height: 20px;
+    }
+
+    #main-nav .scroll-up-arrow,
+    #main-nav .scroll-down-arrow {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -6px;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        border-width: 6px;
+        border-style: dashed dashed solid dashed;
+        border-color: transparent transparent #555555 transparent;
+    }
+
+    #main-nav .scroll-down-arrow {
+        top: 8px;
+        border-style: solid dashed dashed dashed;
+        border-color: #555555 transparent transparent transparent;
+    }
+}
+
 /*========END NAVIGATION========*/
 
 /*========MAIN CONTENT========*/
