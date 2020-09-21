@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php get_page_clean_title(); ?> &lt; <?php get_site_name(); ?></title>
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/normalize.min.css">
+    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/sm-core-css.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/style.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/contactform.css">
-    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/mobile.css">
+    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/preloader.css">
     <?php get_header(); ?>
 </head>
