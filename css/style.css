@@ -120,16 +120,15 @@ body {
 }
 
 #main-nav .open > a {
-    padding-right: 20px;
+    padding-right: 22px;
 }
 
-#main-nav .open > a:after {
-    content: ">";
+#main-nav span.sub-arrow {
     position: absolute;
     right: 8px;
 }
 
-#main-nav > ul > .open > a:after {
+#main-nav > ul > .open > a > span.sub-arrow {
     transform: rotate(90deg);
 }
 
