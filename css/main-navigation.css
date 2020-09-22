@@ -1,0 +1,113 @@
+/* Your rules to style the menu in mobile view (collapsible mode) here... */
+.sm-custom {
+  background: #ea4b4b;
+  z-index: 7;
+}
+
+.sm-custom ul {
+  background: #FD6D6D;
+}
+
+.sm-custom ul ul {
+  margin-left: 15px;
+}
+
+.sm-custom a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 12px;
+  line-height: 1.15;
+}
+
+.sm-custom > li > a {
+  text-transform: uppercase;
+}
+
+.sm-custom ul a {
+  padding: 8px;
+}
+
+.sm-custom .has-submenu {
+  padding-right: 22px;
+}
+
+.sm-custom .sub-arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -2px;
+  border: 4px solid transparent;
+  border-top-color: #FFFFFF;
+}
+
+@media (min-width: 601px) {
+
+/* Switch to desktop layout
+-----------------------------------------------
+  These transform the menu tree from
+  collapsible to desktop (navbar + dropdowns)
+  -----------------------------------------------*/
+  /* start... (it's not recommended editing these rules) */
+  .sm-custom ul{position:absolute;width:12em;}
+  .sm-custom li{float:left;}
+  .sm-custom.sm-rtl li{float:right;}
+  .sm-custom ul li,.sm-custom.sm-rtl ul li,.sm-custom.sm-vertical li{float:none;}
+  .sm-custom a{white-space:nowrap;}
+  .sm-custom ul a,.sm-custom.sm-vertical a{white-space:normal;}
+  .sm-custom .sm-nowrap > li > a,.sm-custom .sm-nowrap > li > :not(ul) a{white-space:nowrap;}
+  /* ...end */
+
+
+  /* Your rules to style the menu in desktop view here... */
+  .sm-custom {
+    position: static;
+    background: linear-gradient(#c60707, #FF7070);
+  }
+
+  .sm-custom ul {
+    border: 1px solid #e64242;
+  }
+
+  .sm-custom ul .sub-arrow {
+    border-top-color: transparent;
+    border-left-color: #FFFFFF;
+    margin-top: -4px;
+    right: 6px;
+  }
+
+  .sm-custom li:hover {
+    background: #A70000;
+  }
+
+  /* button to scroll the submenu if it doesn't fit on the screen */
+  .sm-custom .scroll-up,
+  .sm-custom .scroll-down {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    background: #fff;
+    height: 20px;
+  }
+
+  .sm-custom .scroll-up-arrow,
+  .sm-custom .scroll-down-arrow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 6px;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent #555555 transparent;
+  }
+
+  .sm-custom .scroll-down-arrow {
+    top: 8px;
+    border-style: solid dashed dashed dashed;
+    border-color: #555555 transparent transparent transparent;
+  }
+}
