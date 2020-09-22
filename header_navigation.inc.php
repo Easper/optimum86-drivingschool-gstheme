@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/normalize.min.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/sm-core-css.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/style.css">
+    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/main-navigation.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/contactform.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/mobile.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/jquery.fancybox.min.css">
@@ -31,7 +32,7 @@
             <img src="<?php get_theme_url(); ?>/img/rospa-tandt-banner.svg" alt="" class="banner">
         </header>
         <nav id="main-nav">
-            <ul id="main-menu" class="sm clearfix">
+            <ul id="main-menu" class="sm sm-custom">
                 <?php get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_MENU, 'main-menu-rendering'); ?>
             </ul>
         </nav>
