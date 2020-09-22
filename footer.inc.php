@@ -29,8 +29,7 @@
 <script>
     $(function() {
         $('#main-menu').smartmenus({
-            collapsibleBehavior: 'toggle',
-            subIndicatorsText: '>'
+            collapsibleBehavior: 'toggle'
         });
     });
     $(".mobile-menu-button").click(function(){
