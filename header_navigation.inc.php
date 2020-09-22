@@ -27,11 +27,16 @@
                 <br />
                 <a href="mailto:a.b.9821472654@yandex.ru">a.b.9821472654@yandex.ru</a>
             </address>
-            <div class="mobile-menu-button">☰</div>
             <img src="<?php get_theme_url(); ?>/img/logo.svg" alt="" class="main-logo">
             <img src="<?php get_theme_url(); ?>/img/rospa-tandt-banner.svg" alt="" class="banner">
         </header>
         <nav id="main-nav">
+            <!-- Mobile menu toggle button (hamburger/x icon) -->
+            <input id="main-menu-state" type="checkbox" />
+            <label class="main-menu-btn" for="main-menu-state">
+                <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+            </label>
+            
             <ul id="main-menu" class="sm sm-custom">
                 <?php get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_MENU, 'main-menu-rendering'); ?>
             </ul>

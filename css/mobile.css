@@ -8,23 +8,11 @@
     #main-header .cont-inf {
         position: static;
         border-radius: 0;
-        padding-right: 55px;
         height: 36px;
     }
 
     #main-header .cont-inf a {
         font-size: 14px;
-    }
-
-    #main-header .mobile-menu-button {
-        position: absolute;
-        top: 0;
-        right: 0;
-        color: #fff;
-        padding: 0 12px;
-        font-size: 30px;
-        display: block;
-        line-height: 56px;
     }
 
     #main-content .content .big-brace {
