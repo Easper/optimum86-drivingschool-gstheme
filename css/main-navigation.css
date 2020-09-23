@@ -42,7 +42,9 @@
 }
 
 .main-menu-btn {
-  position: relative;
+  position: absolute;
+  top: 14px;
+  right: 10px;
   display: inline-block;
   width: 28px;
   height: 28px;
@@ -59,7 +61,7 @@
   left: 2px;
   height: 2px;
   width: 24px;
-  background: #bbb;
+  background: #f6f6f6;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
