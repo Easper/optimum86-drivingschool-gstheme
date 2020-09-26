@@ -134,10 +134,6 @@
         border-top: 1px solid #D9D9D9;
     }
 
-    #main-content .content .table-container {
-        overflow-x: auto;
-    }
-
     /* mobile menu
         see the main-navigation.css file */
 }
