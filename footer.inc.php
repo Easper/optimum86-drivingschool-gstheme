@@ -15,6 +15,8 @@
     </div>
 </footer>
 </div>
+<a href="#" class="scrollToTop">наверх</a>
+
 <script src="<?php get_theme_url(); ?>/js/jquery-3.5.1.min.js"></script>
 <script src="<?php get_theme_url(); ?>/js/jquery.smartmenus.min.js"></script>
 <script src="<?php get_theme_url(); ?>/js/jquery.maskedinput.min.js"></script>
@@ -64,6 +66,24 @@
             $('.preloader').delay(400).fadeOut('slow');
         }, 1000);
     });
+</script>
+<!-- scroll to top -->
+<script>
+    $(document).ready(function(){
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 1800) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
+});
 </script>
 
 <?php get_footer(); ?>
