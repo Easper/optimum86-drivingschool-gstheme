@@ -55,8 +55,8 @@
 </script>
 <!-- wrapper for styling the second-level header in the content area -->
 <script>$("#main-content .content h2:not(.homepage-header)").wrapInner('<span />');</script>
-<!-- add horiz table scroll for mobile devices -->
-<script>$("#main-content .content table").wrap("<div class='table-container'></div>");</script>
+<!-- add table wrapper for scroll and margin -->
+<script>$("#main-content .content table").wrap("<div style='overflow: auto; margin: 30px 0;'></div>");</script>
 <!-- preloader -->
 <script>
     $(window).on('load', function () {
