@@ -210,6 +210,11 @@ body {
     margin-left: -88px;
 }
 
+#main-content .content .category-box-container > li > .steering-wheel {
+    margin-left: -42px;
+    border-radius: 10px;
+}
+
 #main-content .content .category-box-container .btn {
     position: absolute;
     left: 50%;
