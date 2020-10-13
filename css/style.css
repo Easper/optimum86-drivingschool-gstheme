@@ -301,6 +301,180 @@ body {
     text-decoration: underline;
 }
 
+#safe-driving-courses #main-content .content {
+    font-size: 16px;
+}
+
+#safe-driving-courses #main-content .content .no-experience {
+    background: linear-gradient( #B2B2B2, #656565, #595959);
+    border-radius: 15px;
+    padding: 17px 21px;
+    color: #FFFFFF;
+}
+
+#safe-driving-courses #main-content .content .no-experience ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 480px;
+}
+
+#safe-driving-courses #main-content .content .no-experience ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#safe-driving-courses #main-content .content .no-experience ul li:last-child {
+    border: none;
+}
+
+#safe-driving-courses #main-content .content .no-experience img {
+    border-radius: 15px;
+    float: right;
+}
+
+#safe-driving-courses #main-content .content .free-drive {
+    margin-top: 60px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+#safe-driving-courses #main-content .content .attention {
+    padding: 9px 15px;
+    color: #FFFFFF;
+    background: linear-gradient( #D40000, #FF8080);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    line-height: 27px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 0;
+}
+
+#safe-driving-courses #main-content .content .free-drive .attention {
+    margin: 0;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#safe-driving-courses #main-content .content .free-drive img {
+    display: block;
+    max-width: 100%;
+}
+
+#safe-driving-courses #main-content .content .course-composition {
+    border-radius: 0 0 15px 15px;
+    background: url(../img/safe-driving-courses/lets-start.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 32px 18px 22px;
+}
+
+#safe-driving-courses #main-content .content .course-composition h2 {
+    padding: 4px 8px;
+    color: #505050;
+    font-size: 22px;
+    transform: none;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    position: absolute;
+    margin: 0;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    line-height: 27px;
+}
+
+#safe-driving-courses #main-content .content .course-composition h2::after {
+    content: "Чему не научат в автошколах";
+    position: absolute;
+    padding: 1px 4px;
+    border-radius: 0 0 5px 5px;
+    background: #DA2D2D;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: normal;
+    line-height: normal;
+    right: 0;
+    top: 100%;
+}
+
+#safe-driving-courses #main-content .content .course-composition h2 span {
+    position: static;
+    display: inline;
+    transform: none;
+}
+
+#safe-driving-courses #main-content .content .course-composition h2 span::before,
+#safe-driving-courses #main-content .content .course-composition h2 span::after {
+    display: none;
+}
+
+#safe-driving-courses #main-content .content .course-composition h2 span span {
+    text-transform: none;
+}
+
+#safe-driving-courses #main-content .content .course-composition p {
+    background: #FFFFFF;
+    padding: 5px 12px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+#safe-driving-courses #main-content .content .course-composition ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#safe-driving-courses #main-content .content .course-composition ul li {
+    padding: 15px;
+    padding-left: 53px;
+    margin: 6px;
+    background: url(../img/safe-driving-courses/check-mark.png) center left 10px no-repeat, rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    float: left;
+    clear: both;
+}
+
+#safe-driving-courses #main-content .content .lead-instructor {
+    max-width: 720px;
+    margin: 22px auto;
+    border: 1px solid #707070;
+}
+
+#safe-driving-courses #main-content .content .lead-instructor p,
+#safe-driving-courses #main-content .content .lead-instructor ul {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#safe-driving-courses #main-content .content .lead-instructor p:first-child {
+    padding: 10px 20px;
+    background: #EFEFEF;
+    border: 1px solid #C7C7C7;
+    max-width: 500px;
+    text-align: center;
+    margin: 16px auto;
+}
+
+#safe-driving-courses #main-content .content .lead-instructor p:first-child span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#safe-driving-courses #main-content .content .h-centered {
+    text-align: center;
+}
+
 /*========END MAIN CONTENT========*/
 
 /*========MAIN FOOTER========*/
