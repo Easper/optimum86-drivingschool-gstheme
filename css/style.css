@@ -340,6 +340,8 @@ body {
 }
 
 #safe-driving-courses #main-content .content .attention {
+    position: relative;
+    overflow: hidden;
     padding: 9px 15px;
     color: #FFFFFF;
     background: linear-gradient( #D40000, #FF8080);
@@ -350,6 +352,42 @@ body {
     line-height: 27px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     margin: 0;
+}
+
+#safe-driving-courses #main-content .content .attention:after {
+    animation: attention-shine 7s infinite;
+    content: "";
+    position: absolute;
+    left: -210%;
+    width: 220%;
+    height: 60%;
+    transform: rotate(45deg);
+    
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.05) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+}
+  
+@keyframes attention-shine {
+    0% {
+        left: -210%;
+        transition-property: left;
+    }
+
+    70% {
+        left: -210%;
+        transition-property: left;
+    }
+
+    100% {
+        left: 100%;
+        transition-property: left;
+    }
 }
 
 #safe-driving-courses #main-content .content .free-drive .attention {
