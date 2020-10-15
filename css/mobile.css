@@ -136,4 +136,41 @@
 
     /* mobile menu
         see the main-navigation.css file */
+
+    /* safe courses page */
+
+    #safe-driving-courses #main-content .content .no-experience img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #safe-driving-courses #main-content .content .free-drive {
+        margin-top: 8px;
+    }
+
+    #safe-driving-courses #main-content .content .free-drive .attention {
+        position: relative;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        transform: none;
+        left: 0;
+        top: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #safe-driving-courses #main-content .content .course-composition {
+        padding: 5px;
+    }
+
+    #safe-driving-courses #main-content .content .course-composition h2 {
+        white-space: normal;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-bottom: 25px;
+    }
 }
