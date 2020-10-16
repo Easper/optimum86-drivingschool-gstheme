@@ -108,6 +108,7 @@
 
     #main-content .content .contact-form #p01-contact1 .field label {
         display: block;
+        margin-right: 0;
     }
 
     #main-content .content .contact-form #p01-contact1 .field input:not([type='submit']) {
