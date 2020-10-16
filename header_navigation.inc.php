@@ -27,8 +27,12 @@
                 <br />
                 <a href="mailto:a.b.9821472654@yandex.ru">a.b.9821472654@yandex.ru</a>
             </address>
-            <img src="<?php get_theme_url(); ?>/img/logo.svg" alt="" class="main-logo">
-            <img src="<?php get_theme_url(); ?>/img/rospa-tandt-banner.svg" alt="" class="banner">
+            <object type="image/svg+xml" data="<?php get_theme_url(); ?>/img/logo.svg" class="main-logo">
+                Your browser does not support SVG
+            </object>
+            <object type="image/svg+xml" data="<?php get_theme_url(); ?>/img/rospa-tandt-banner.svg" class="banner">
+                Your browser does not support SVG
+            </object>
         </header>
         <nav id="main-nav">
             <!-- Mobile menu toggle button (hamburger/x icon) -->
