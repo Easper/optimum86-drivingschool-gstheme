@@ -20,6 +20,10 @@
   line-height: 1.15;
 }
 
+.sm-custom a:hover {
+  background: #A70000;
+}
+
 .sm-custom > li > a {
   text-transform: uppercase;
 }
