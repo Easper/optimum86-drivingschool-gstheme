@@ -513,6 +513,14 @@ body {
     text-align: center;
 }
 
+#main-content .content .attention-block {
+    border: 4px double #c60808;
+    background: url(../img/attention-sign-background.png) center right 12px no-repeat;
+    padding: 8px;
+    padding-left: 22px;
+    padding-right: 88px;
+}
+
 /*========END MAIN CONTENT========*/
 
 /*========MAIN FOOTER========*/
