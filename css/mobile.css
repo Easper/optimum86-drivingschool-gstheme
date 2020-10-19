@@ -97,24 +97,6 @@
         margin: 0 5px 15px;
     }
 
-    #main-content .content .contact-form {
-        padding: 10px;
-    }
-
-    #main-content .content .contact-form #p01-contact1 .field {
-        margin: 0 0 20px;
-        text-align: center;
-    }
-
-    #main-content .content .contact-form #p01-contact1 .field label {
-        display: block;
-        margin-right: 0;
-    }
-
-    #main-content .content .contact-form #p01-contact1 .field input:not([type='submit']) {
-        max-width: 90%;
-    }
-
     #main-footer {
         height: auto;
         padding-bottom: 64px;
