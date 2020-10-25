@@ -45,7 +45,8 @@
 
     #main-header .main-logo {
         position: static;
-        max-width: 190px;
+        width: 190px;
+        height: 74px;
         display: block;
         margin: 8px;
     }
@@ -53,17 +54,18 @@
     #main-header .banner {
         position: static;
         display: block;
-        max-width: 125px;
+        width: 125px;
+        height: 27px;
         margin: 8px;
     }
 
     #index #main-header .main-logo {
         margin: 30px auto 0;
-        max-width: 300px;
+        width: 300px;
+        height: 135px;
     }
 
     #index #main-header .banner {
-        max-width: 100%;
         margin: 15px auto 0;
     }
 

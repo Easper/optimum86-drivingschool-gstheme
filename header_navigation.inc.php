@@ -27,11 +27,11 @@
                 <br />
                 <a href="mailto:a.b.9821472654@yandex.ru">a.b.9821472654@yandex.ru</a>
             </address>
-            <object type="image/svg+xml" data="<?php get_theme_url(); ?>/img/logo.svg" class="main-logo">
-                <img src="<?php get_theme_url(); ?>/img/logo.png" alt="" class="main-logo">
+            <object type="image/svg+xml" data="<?php get_theme_url(); ?>/img/logo.svg" class="main-logo" width="346" height="135">
+                <img src="<?php get_theme_url(); ?>/img/logo.png" alt="" class="main-logo" width="346" height="135">
             </object>
-            <object type="image/svg+xml" data="<?php get_theme_url(); ?>/img/rospa-tandt-banner.svg" class="banner">
-                <img src="<?php get_theme_url(); ?>/img/rospa-tandt-banner.png" alt="" class="banner">
+            <object type="image/svg+xml" data="<?php get_theme_url(); ?>/img/rospa-tandt-banner.svg" class="banner" width="215" height="47">
+                <img src="<?php get_theme_url(); ?>/img/rospa-tandt-banner.png" alt="" class="banner" width="215" height="47">
             </object>
         </header>
         <nav id="main-nav">
