@@ -521,6 +521,33 @@ body {
     padding-right: 88px;
 }
 
+#main-content .content .images-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#main-content .content .images-container::after {
+    content: "";
+    display: block;
+    width: 32%;
+}
+
+#main-content .content .images-container a {
+    width: 32%;
+}
+
+#main-content .content .images-container a img {
+    margin: 12px 0;
+    padding: 4px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#main-content .content .images-container a img:hover {
+    box-shadow: 0 0 5px 0 #707070;
+}
+
 /*========END MAIN CONTENT========*/
 
 /*========MAIN FOOTER========*/
