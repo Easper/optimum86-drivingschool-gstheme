@@ -67,6 +67,8 @@
 
     #index #main-header .banner {
         margin: 15px auto 0;
+        width: auto;
+        height: auto;
     }
 
     #main-header {
