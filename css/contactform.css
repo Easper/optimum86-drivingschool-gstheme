@@ -6,32 +6,32 @@
     padding: 28px;
 }
 
-#main-content .content .contact-form #p01-contact1 {
+#main-content .content .contact-form .p01-contact {
     margin: 0;
     font-family: inherit;
     display: block;
     max-width: 100%;
 }
 
-#main-content .content .contact-form #p01-contact1 .field {
+#main-content .content .contact-form .p01-contact .field {
     margin: 0 176px 28px 0;
     text-align: right;
 }
 
-#main-content .content .zapis-na-ekzamen-form #p01-contact1 .field {
+#main-content .content .zapis-na-ekzamen-form .p01-contact .field {
     margin-right: 90px;
 }
 
-#main-content .content .contact-form #p01-contact1 .email,
-#main-content .content .contact-form #p01-contact1 .subject {
+#main-content .content .contact-form .p01-contact .email,
+#main-content .content .contact-form .p01-contact .subject {
 	display: none;
 }
 
-#main-content .content .zapis-na-ekzamen-form #p01-contact1 .email {
+#main-content .content .zapis-na-ekzamen-form .p01-contact .email {
     display: block;
 }
 
-#main-content .content .contact-form #p01-contact1 .field label {
+#main-content .content .contact-form .p01-contact .field label {
     color: #9C9C9C;
     text-transform: uppercase;
     font-weight: bold;
@@ -39,8 +39,8 @@
     display: inline-block;
 }
 
-#main-content .content .contact-form #p01-contact1 .field input:not([type='submit']),
-#main-content .content .contact-form #p01-contact1 .field select {
+#main-content .content .contact-form .p01-contact .field input:not([type='submit']),
+#main-content .content .contact-form .p01-contact .field select {
     width: 306px;
     line-height: 30px;
     padding-left: 10px;
@@ -53,7 +53,7 @@
     transition: none;
 }
 
-#main-content .content .contact-form #p01-contact1 .submit {
+#main-content .content .contact-form .p01-contact .submit {
     width: 180px;
     background: linear-gradient( #C20000, #FF7070);
     display: inline-block;
@@ -68,33 +68,44 @@
     transition: none;
 }
 
-#main-content .content .contact-form #p01-contact1 .submit:hover {
+#main-content .content .contact-form .p01-contact .submit:hover {
 	background: #A70000;
 	transition: none;
 }
 
-#main-content .content .contact-form #p01-contact1 .alert.success {
+#main-content .content .contact-form .p01-contact .alert.success {
 	margin-bottom: 0px;
+}
+
+#main-content .content .contact-form .p01-contact input:focus,
+#main-content .content .contact-form .p01-contact textarea:focus,
+#main-content .content .contact-form .p01-contact select:focus {
+    box-shadow: 0 0 8px #b10505;
+    border: 1px solid #b10505;
+}
+
+#main-content .content .contact-form .p01-contact .required label:after {
+    color: #b10505;
 }
 
 @media screen and (max-width: 600px) {
 
     #main-content .content .contact-form {
-        padding: 10px;
+        padding: 20px 10px;
     }
 
-    #main-content .content .contact-form #p01-contact1 .field {
+    #main-content .content .contact-form .p01-contact .field {
         margin: 0 0 20px;
         text-align: center;
     }
 
-    #main-content .content .contact-form #p01-contact1 .field label {
+    #main-content .content .contact-form .p01-contact .field label {
         display: block;
         margin-right: 0;
     }
 
-    #main-content .content .contact-form #p01-contact1 .field input:not([type='submit']),
-    #main-content .content .contact-form #p01-contact1 .field select {
+    #main-content .content .contact-form .p01-contact .field input:not([type='submit']),
+    #main-content .content .contact-form .p01-contact .field select {
         max-width: 90%;
     }
 
