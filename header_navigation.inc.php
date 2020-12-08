@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/contactform.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/mobile.css">
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="<?php get_theme_url(); ?>/css/preloader.css">
+    <!-- <link rel="stylesheet" href="<?php /* get_theme_url(); */ ?>/css/preloader.css"> -->
     <?php get_header(); ?>
 </head>
 <body id="<?php get_page_slug(); ?>" >
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader">Загрузка...</div>
-    </div>
+    </div> -->
     <div class="wrapper">
         <header id="main-header">
             <address class="cont-inf">

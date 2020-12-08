@@ -60,13 +60,13 @@
 <!-- add table wrapper for scroll and margin -->
 <script>$("#main-content .content table").wrap("<div style='overflow: auto; margin: 30px 0;'></div>");</script>
 <!-- preloader -->
-<script>
+<!-- <script>
     $(window).on('load', function () {
         window.setTimeout(function () {
             $('.preloader').delay(400).fadeOut('slow');
         }, 1000);
     });
-</script>
+</script> -->
 <!-- scroll to top -->
 <script>
     $(document).ready(function(){
